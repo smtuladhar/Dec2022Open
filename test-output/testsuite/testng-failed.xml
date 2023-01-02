@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [testsuite]">
+  <test thread-count="5" name="testchrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Day28.ParaTest">
+        <methods>
+          <include name="Logout"/>
+          <include name="LaunchApp" invocation-numbers="0"/>
+          <include name="Login"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Day28.ParaTest -->
+    </classes>
+  </test> <!-- testchrome(failed) -->
+</suite> <!-- Failed suite [testsuite] -->
